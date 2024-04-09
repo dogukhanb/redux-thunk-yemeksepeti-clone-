@@ -1,0 +1,297 @@
+{
+  "restaurants": [
+    {
+      "id": "1",
+      "name": "Lezzet Pazarı",
+      "minimum_order_amount": 50,
+      "estimated_delivery_time": 30,
+      "image": "https://cdn.yemek.com/mncrop/940/625/uploads/2014/07/grand-hyatt-34-restoran.jpg",
+      "rating": 4.5,
+      "free_delivery": true
+    },
+    {
+      "id": "2",
+      "name": "Mutfak Köşesi",
+      "minimum_order_amount": 40,
+      "estimated_delivery_time": 25,
+      "image": "https://cdn.yemek.com/mncrop/940/625/uploads/2016/08/tarihi-mekanlar-manset.jpg",
+      "rating": 4.2,
+      "free_delivery": false
+    },
+    {
+      "id": "3",
+      "name": "Lezzet İstasyonu",
+      "minimum_order_amount": 35,
+      "estimated_delivery_time": 35,
+      "image": "https://yeditepeyemek.com/wp-content/uploads/2018/03/DSC_4602.jpg",
+      "rating": 4.7,
+      "free_delivery": true
+    },
+    {
+      "id": "4",
+      "name": "Tadım Sofrası",
+      "minimum_order_amount": 60,
+      "estimated_delivery_time": 40,
+      "image": "https://cdn.yemek.com/mncrop/940/625/uploads/2016/02/dunyadan-muze-restoranlari-manset.jpg",
+      "rating": 4.4,
+      "free_delivery": true
+    },
+    {
+      "id": "5",
+      "name": "Lezzet Durağı",
+      "minimum_order_amount": 45,
+      "estimated_delivery_time": 30,
+      "image": "https://cdn.yemek.com/mncrop/940/625/uploads/2017/01/robin-hood-restaurant.jpg",
+      "rating": 4.6,
+      "free_delivery": false
+    },
+    {
+      "id": "6",
+      "name": "Mutlu Mutfak",
+      "minimum_order_amount": 55,
+      "estimated_delivery_time": 35,
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/36/83/b6/restaurant.jpg?w=1200&h=-1&s=1",
+      "rating": 4.3,
+      "free_delivery": false
+    },
+    {
+      "id": "7",
+      "name": "Lezzet Bahçesi",
+      "minimum_order_amount": 30,
+      "estimated_delivery_time": 20,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-C-34X4aBSagm3x9-9dbPy4FbOtJT-0DOog&s",
+      "rating": 4.8,
+      "free_delivery": true
+    },
+    {
+      "id": "8",
+      "name": "Tadına Bak",
+      "minimum_order_amount": 40,
+      "estimated_delivery_time": 25,
+      "image": "https://cdn.yemek.com/mnresize/1250/833/uploads/2022/12/gurmos-one-cikan.jpg",
+      "rating": 4.2,
+      "free_delivery": false
+    },
+    {
+      "id": "9",
+      "name": "Keyif Lokantası",
+      "minimum_order_amount": 50,
+      "estimated_delivery_time": 30,
+      "image": "https://cdn.yemek.com/mncrop/940/625/uploads/2016/08/tarihi-mekanlar-manset.jpg",
+      "rating": 4.7,
+      "free_delivery": true
+    },
+    {
+      "id": "10",
+      "name": "Lezzet Ateşi",
+      "minimum_order_amount": 35,
+      "estimated_delivery_time": 25,
+      "image": "https://cdn.yemek.com/mncrop/940/625/uploads/2014/07/grand-hyatt-34-restoran.jpg",
+      "rating": 4.4,
+      "free_delivery": false
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "title": "Karides Linguine",
+      "description": "Leziz karideslerle yapılan nefis bir linguine.",
+      "category": "Deniz Ürünleri",
+      "price": 35.99,
+      "rating": 4.5,
+      "photo": "https://cdn.yemek.com/mnresize/1250/833/uploads/2021/04/karidesli-makarna-tarifi.jpg",
+      "restaurantId": "10"
+    },
+    {
+      "id": "2",
+      "title": "Mantar Risotto",
+      "description": "Taze mantarlarla yapılan enfes bir risotto.",
+      "category": "İtalyan",
+      "price": 29.99,
+      "rating": 4.2,
+      "photo": "https://cdn.yemek.com/mnresize/940/940/uploads/2020/09/mantarli-risotto-1.jpg",
+      "restaurantId": "9"
+    },
+    {
+      "id": "3",
+      "title": "Tavuk Şinitzel",
+      "description": "Tavuk göğsü parçalarının kaplanıp kızartılmasıyla yapılan geleneksel bir yemek.",
+      "category": "Ana Yemek",
+      "price": 25.99,
+      "rating": 4.6,
+      "photo": "https://cdn.yemek.com/mnresize/1250/833/uploads/2023/12/tavuk-sinitzel-yemekcom.jpg",
+      "restaurantId": "8"
+    },
+    {
+      "id": "4",
+      "title": "Domates Çorbası",
+      "description": "Taze domateslerle hazırlanan sıcacık bir çorba.",
+      "category": "Çorbalar",
+      "price": 12.99,
+      "rating": 4,
+      "photo": "https://i.ytimg.com/vi/pN9DyP95Rys/maxresdefault.jpg",
+      "restaurantId": "7"
+    },
+    {
+      "id": "5",
+      "title": "Mevsim Salatası",
+      "description": "Taze sebzeler ve yeşilliklerle hazırlanan sağlıklı bir salata.",
+      "category": "Salatalar",
+      "price": 15.99,
+      "rating": 4.7,
+      "photo": "https://cdn.yemek.com/uploads/2019/01/mevsim-salatasi-fb.jpg",
+      "restaurantId": "6"
+    },
+    {
+      "id": "6",
+      "title": "Klasik Burger",
+      "description": "Özel soslarla tatlandırılmış dana köftesi ve taze sebzelerle hazırlanan burger.",
+      "category": "Fast Food",
+      "price": 18.99,
+      "rating": 4.4,
+      "photo": "https://cdn.yemek.com/mncrop/940/625/uploads/2016/05/ev-yapimi-hamburger.jpg",
+      "restaurantId": "5"
+    },
+    {
+      "id": "7",
+      "title": "Fırın Patates Kızartması",
+      "description": "Çıtır çıtır fırınlanmış patates kızartması.",
+      "category": "Atıştırmalıklar",
+      "price": 8.99,
+      "rating": 4.3,
+      "photo": "https://cdn.yemek.com/mnresize/1250/833/uploads/2022/04/serap-akgun-firinda-patates.jpg",
+      "restaurantId": "4"
+    },
+    {
+      "id": "8",
+      "title": "Mango Smoothie",
+      "description": "Taze mango ve yoğurtla hazırlanan serinletici bir içecek.",
+      "category": "İçecekler",
+      "price": 7.99,
+      "rating": 4.8,
+      "photo": "https://cdn.yemek.com/mncrop/940/625/uploads/2015/05/mangolu-portakalli-smoothie-tarifi.jpg",
+      "restaurantId": "3"
+    },
+    {
+      "id": "9",
+      "title": "Fırın Makarna",
+      "description": "Fırında pişirilmiş nefis bir makarna.",
+      "category": "İtalyan",
+      "price": 22.99,
+      "rating": 4.1,
+      "photo": "https://cdn.yemek.com/mncrop/940/625/uploads/2015/02/firin-makarna-yemekcom-yeni.jpg",
+      "restaurantId": "2"
+    },
+    {
+      "id": "10",
+      "title": "Meksika Tacos",
+      "description": "Baharatlı tavuk ve sebzelerle hazırlanan Meksika usulü taco.",
+      "category": "Meksika",
+      "price": 19.99,
+      "rating": 4.6,
+      "photo": "https://cdn.yemek.com/mnresize/1250/833/uploads/2021/12/taco-sevgililer-gunu-gorsel.jpg",
+      "restaurantId": "1"
+    },
+    {
+      "id": "11",
+      "title": "Somon Füme",
+      "description": "Taze somon parçalarıyla hazırlanan leziz bir başlangıç.",
+      "category": "Deniz Ürünleri",
+      "price": 28.99,
+      "rating": 4.3,
+      "photo": "https://cdn.yemek.com/mncrop/940/625/uploads/2014/12/fume-somon-salatasi-tarifi.jpg",
+      "restaurantId": "1"
+    },
+    {
+      "id": "12",
+      "title": "Köri Tavuk",
+      "description": "Kremalı köri soslu tavuk parçalarıyla lezzetli bir ana yemek.",
+      "category": "Hint",
+      "price": 24.99,
+      "rating": 4.5,
+      "photo": "https://cdn.yemek.com/mnresize/940/940/uploads/2014/06/kori-soslu-tavuk-yemekcom.jpg",
+      "restaurantId": "2"
+    },
+    {
+      "id": "13",
+      "title": "Çikolatalı Brownie",
+      "description": "Yoğun çikolata lezzetiyle hazırlanmış nefis bir brownie.",
+      "category": "Tatlılar",
+      "price": 10.99,
+      "rating": 4.7,
+      "photo": "https://cdn.yemek.com/mnresize/1250/833/uploads/2018/11/gercek-brownie-tarifi-yemekcom.jpg",
+      "restaurantId": "3"
+    },
+    {
+      "id": "14",
+      "title": "Tavuk Noodle Çorbası",
+      "description": "Tavuk suyunda pişirilen noodle ve sebzelerle hazırlanan sıcacık bir çorba.",
+      "category": "Çorbalar",
+      "price": 14.99,
+      "rating": 4.2,
+      "photo": "https://cdn.yemek.com/mncrop/940/625/uploads/2022/11/noodle-corba-yemekcom.jpg",
+      "restaurantId": "4"
+    },
+    {
+      "id": "15",
+      "title": "Mango Tango Salata",
+      "description": "Taze mango dilimleri ve tavuk parçalarıyla hazırlanan nefis bir salata.",
+      "category": "Salatalar",
+      "price": 16.99,
+      "rating": 4.4,
+      "photo": "https://i.nefisyemektarifleri.com/2022/07/07/mangolu-roka-salatasi.jpg",
+      "restaurantId": "5"
+    },
+    {
+      "id": "16",
+      "title": "Pizza Margherita",
+      "description": "Taze domates ve mozzarella peyniriyle hazırlanan geleneksel bir pizza.",
+      "category": "İtalyan",
+      "price": 20.99,
+      "rating": 4.6,
+      "photo": "https://cdn.yemek.com/uploads/2014/09/pizza-margherita-tarifi-yeni-2018.jpg",
+      "restaurantId": "6"
+    },
+    {
+      "id": "17",
+      "title": "Közlenmiş Sebzeli Pilav",
+      "description": "Közlenmiş sebzelerle zenginleştirilmiş leziz bir pilav.",
+      "category": "Yan Yemekler",
+      "price": 11.99,
+      "rating": 4,
+      "photo": "https://cdn.yemek.com/mncrop/600/315/uploads/2023/12/sebzeli-pilav-5.jpg",
+      "restaurantId": "7"
+    },
+    {
+      "id": "18",
+      "title": "Tavuklu Wrap",
+      "description": "Özel tavuk sosu ve sebzelerle doldurulmuş leziz bir wrap.",
+      "category": "Fast Food",
+      "price": 17.99,
+      "rating": 4.3,
+      "photo": "https://cdn.yemek.com/mnresize/1250/833/uploads/2021/06/tavuklu-wrap-2-aysegul-tarifi.jpg",
+      "restaurantId": "8"
+    },
+    {
+      "id": "19",
+      "title": "Çıtır Mozzarella Stick",
+      "description": "Çıtır çıtır kızarmış mozzarella peyniri stickleri.",
+      "category": "Atıştırmalıklar",
+      "price": 9.99,
+      "rating": 4.8,
+      "photo": "https://cdn.yemek.com/mncrop/940/625/uploads/2014/09/mozzarella-sticks-tarifi.jpg",
+      "restaurantId": "9"
+    },
+    {
+      "id": "20",
+      "title": "Ispanaklı ,Tavuklu Pesto Makarna",
+      "description": "Tavuk dilimleri ve taze pesto sosuyla hazırlanan nefis bir makarna.",
+      "category": "İtalyan",
+      "price": 23.99,
+      "rating": 4.5,
+      "photo": "https://cdn.yemek.com/mnresize/1250/833/uploads/2023/02/ispanakli-pesto-soslu-tavuk-sunum.jpg",
+      "restaurantId": "10"
+    }
+  ],
+  "cart": []
+}

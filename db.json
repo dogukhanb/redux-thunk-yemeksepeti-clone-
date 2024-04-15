@@ -293,5 +293,42 @@
       "restaurantId": "10"
     }
   ],
-  "cart": []
+  "cart": [
+    {
+      "id": "88f56f81-be74-4ca9-9e54-a2f865ec3ec7",
+      "productId": "10",
+      "title": "Meksika Tacos",
+      "price": 19.99,
+      "photo": "https://cdn.yemek.com/mnresize/1250/833/uploads/2021/12/taco-sevgililer-gunu-gorsel.jpg",
+      "restaurantName": "Lezzet Pazarı",
+      "amount": 4
+    },
+    {
+      "id": "44223a27-f48d-4c13-a3e7-887b5b135d19",
+      "productId": "11",
+      "title": "Somon Füme",
+      "price": 28.99,
+      "photo": "https://cdn.yemek.com/mncrop/940/625/uploads/2014/12/fume-somon-salatasi-tarifi.jpg",
+      "restaurantName": "Lezzet Pazarı",
+      "amount": 2
+    },
+    {
+      "id": "0469fee4-0011-43ac-bab7-94fc43c1afaa",
+      "productId": "6",
+      "title": "Klasik Burger",
+      "price": 18.99,
+      "photo": "https://cdn.yemek.com/mncrop/940/625/uploads/2016/05/ev-yapimi-hamburger.jpg",
+      "restaurantName": "Lezzet Durağı",
+      "amount": 1
+    },
+    {
+      "id": "a51c681b-2fc7-46d4-8280-85691275c9f8",
+      "productId": "5",
+      "title": "Mevsim Salatası",
+      "price": 15.99,
+      "photo": "https://cdn.yemek.com/uploads/2019/01/mevsim-salatasi-fb.jpg",
+      "restaurantName": "Mutlu Mutfak",
+      "amount": 1
+    }
+  ]
 }

@@ -15,13 +15,15 @@ export const getCart = () => (dispatch) => {
         payload: res.data,
       });
     })
-    .catch(() => {
+    .catch((err) => {
+      // Hata nesnesini yakalayın
       dispatch({
         type: ActionTypes.CART_ERROR,
-        payload: err.message,
+        payload: err.message, // Hata mesajını gönderin
       });
     });
 };
+
 // 2) Sepete Yeni Eleman Ekleme
 export const addToBasket = (product, rest) => (dispatch) => {
   // a) sepete eklenicek olan ürünün bilgilerini belirle
